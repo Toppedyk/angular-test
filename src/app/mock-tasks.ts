@@ -17,4 +17,4 @@ export const TASKS = [
     day: 'May 7th at 12:30pm',
     reminder:false,
   }
-]
+];
