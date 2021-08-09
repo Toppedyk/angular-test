@@ -9,7 +9,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {HttpClientModule} from '@angular/common/http';
-import { AddTaskComponent } from './component/add-task/add-task.component'
+// import { AddTaskComponent } from './component/add-task/add-task.component'
 
 @NgModule({
   declarations: [
@@ -17,8 +17,7 @@ import { AddTaskComponent } from './component/add-task/add-task.component'
     HeaderComponent,
     ButtonComponent,
     TasksComponent,
-    TaskItemComponent,
-    AddTaskComponent
+    TaskItemComponent
   ],
   imports: [
     BrowserModule,
